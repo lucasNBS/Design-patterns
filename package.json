@@ -1,0 +1,26 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Padrões de design de software, como o próprio nome sugere, são padrões comuns para resolver problemas variados no desenvolvimento de software. Um padrão de design não é um algoritmo ou um código que pode ser siplesmente copiado e colado de projeto para projeto, mas um conceito aplicado no código para resolver algum tipo de problema.",
+  "main": "index.js",
+  "scripts": {
+    "creational": "node ./Creational/index.ts",
+    "structural": "node ./Structural/index.ts",
+    "behavioral": "node ./Behavioral/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasNBS/Design-patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasNBS/Design-patterns/issues"
+  },
+  "homepage": "https://github.com/lucasNBS/Design-patterns#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
