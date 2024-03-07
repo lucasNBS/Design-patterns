@@ -69,11 +69,11 @@ class VeggieBurgerRestaurant extends Restaurant {
 }
 
 // Função padrão do código
-function main() {
+function factoryMain() {
   const veggieRestaurant: VeggieBurgerRestaurant = new VeggieBurgerRestaurant()
   const veggieBurger: Burger = veggieRestaurant.orderBurger()
 
   const beefRestaurant: BeffBurgerRestaurant = new BeffBurgerRestaurant()
   const beefBurger: Burger = beefRestaurant.orderBurger()
 }
-main()
+factoryMain()
