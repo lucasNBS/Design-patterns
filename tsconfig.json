@@ -4,5 +4,8 @@
     "module": "CommonJS",
     "noEmitOnError": true,
     "outDir": "js/"
-  }
+  },
+  "include": [
+    "*/*.ts"
+  ]
 }
