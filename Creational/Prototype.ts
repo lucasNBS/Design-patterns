@@ -5,19 +5,24 @@
 
   EXEMPLO
 
-  Considere um sistema para o cadastro da automóveis.
+  Considere um sistema para o cadastro da veículos.
 
-  Os automóves possuem algumas propriedades básicas, como marca, modelo e cor. Porém, a nível de código, mexer com os automóveis pode ser trabalhoso, tendo de inicializar cada automóvel separadamente quando, na prática, muitos deles terão propriedades similares.
+  Os automóves possuem algumas propriedades básicas, como marca, modelo e cor. Porém, a nível de código, mexer com os veículos pode ser trabalhoso, tendo de inicializar cada veículo separadamente quando, na prática, muitos deles terão propriedades similares.
 
   O padrão Prototype resolve esse tipo de problema.
 
-  Ao invés de criar os automóveis um a um do zero, um automóvel base é criado e utilizado para gerar novos automóveis.
+  Ao invés de criar os veículos um a um do zero, um veículo base é criado e utilizado para gerar novos veículos.
 
   EXPLICAÇÃO DO CÓDIGO
 
-  O automóvel se torna uma classe abstrata com suas propriedades base.
+  O veículo se torna uma classe abstrata com suas propriedades base e um método abstrato de clonagem.
+
+  Classes como carro e ônibus, são filhas de veículo, possuindo suas próprias propriedades e a implementação do método clone, que retorna um novo objeto idêntico ao que o criou.
+
+  Finalmente, para criar um clone de um objeto, criamos um protótipo, inicializamos ele e executamos seu método de clonagem.
 */
 
+// Classe de veículo
 abstract class Vehicle {
   public brand: string
   public model: string
@@ -32,6 +37,7 @@ abstract class Vehicle {
   public abstract clone(): Vehicle
 }
 
+// Classe de carro
 class Car extends Vehicle {
   private topSpeed: number
 
@@ -45,6 +51,7 @@ class Car extends Vehicle {
   }
 }
 
+// Classe de ônibus
 class Bus extends Vehicle {
   private length: number
 
@@ -58,7 +65,7 @@ class Bus extends Vehicle {
   }
 }
 
-
+// Função padrão do código
 function prototypeMain() {
   const car1 = new Car()
   car1.brand = "Bugatti"
