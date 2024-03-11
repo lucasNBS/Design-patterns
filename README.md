@@ -7,35 +7,35 @@ Os padrões de design de software se dividem em três grupos: os criacionais, es
 Padrões criacionais abstraem o processo de instanciação, tornando o sistema independente de como os objetos são criados, compostos e representados. Assim, aumentando a flexibilidade do código.
 
 Padrões criacionais:
-- Factory
-- Abstract Factory
-- Builder
-- Prototype
-- Singleton
+- [Factory](/tree/main/Creational/Factory)
+- [Abstract Factory](/tree/main/Creational/AbstractFactory)
+- [Builder](/tree/main/Creational/Builder)
+- [Prototype](/tree/main/Creational/Prototype)
+- [Singleton](/tree/main/Creational/Singleton)
 
 ## Structural Patterns
 Padrões estruturais gerenciam a forma como classes e objetos são compostos para formar estruturas maiores, mantendo-os flexíveis e eficientes.
 
 Padrões estruturais:
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Facade
-- Flyweight
-- Proxy
+- [Adapter](/tree/main/Structural/Adapter)
+- [Bridge](/tree/main/Structural/Bridge)
+- [Composite](/tree/main/Structural/Composite)
+- [Decorator](/tree/main/Structural/Decorator)
+- [Facade](/tree/main/Structural/Facade)
+- [Flyweight](/tree/main/Structural/Flyweight)
+- [Proxy](/tree/main/Structural/Proxy)
 
 ## Behavioral Patterns
 Padrões comportamentais lidam com algoritmos e a atribuição de responsabilidades entre objetos, descrevendo os padrões de objetos, classes e da comunicação entre eles.
 
 Padrões comportamentais:
-- Chain of Responsability
-- Command
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Template Method
-- Visitor
+- [Chain of Responsability](/tree/main/Behavioral/ChainOfResponsability)
+- [Command](/tree/main/Behavioral/Command)
+- [Iterator](/tree/main/Behavioral/Iterator)
+- [Mediator](/tree/main/Behavioral/Mediator)
+- [Memento](/tree/main/Behavioral/Memento)
+- [Observer](/tree/main/Behavioral/Observer)
+- [State](/tree/main/Behavioral/State)
+- [Strategy](/tree/main/Behavioral/Strategy)
+- [Template Method](/tree/main/Behavioral/TemplateMethod)
+- [Visitor](/tree/main/Behavioral/Visitor)
