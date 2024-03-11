@@ -6,7 +6,7 @@ Agregar responsabilidades a um objeto dinamicamente.
 
 Considere uma aplicação que envia notificações aos seus usuários.
 
-Inicialmente, esta aplicação envia um e-mail aos usuários. Em uma atualização, ela passa a poder enviar também uma mensagem no Facebook. Em uma outra, para o Whatsapp, e assim por diante. Porém, caso em algum momento seja decidido que esta aplicação deva conseguir enviar essas notificações em vários locais ao mesmo tempo, como ficaria esta implementação. Em um equema comum baseado em herança, classes diferentes seriam criadas para cada tipo de envio, fazendo com que para cada combinação, uma nova classe tenha de ser criada também.
+Inicialmente, esta aplicação envia um e-mail aos usuários. Em uma atualização, ela passa a poder enviar também uma mensagem no Facebook. Em uma outra, para o Whatsapp, e assim por diante. Porém, caso em algum momento seja decidido que esta aplicação deva conseguir enviar essas notificações em vários locais ao mesmo tempo, como ficaria esta implementação? Em um equema comum baseado em herança, classes diferentes seriam criadas para cada tipo de envio, fazendo com que para cada combinação, uma nova classe tenha de ser criada também.
 
 O padrão Decorator resolve esse tipo de problema.
 

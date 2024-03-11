@@ -16,7 +16,7 @@ Ao invés de definir uma propriedade com os métodos para alterá-la, define-se 
 
 Criamos uma class para a luz, com o método para ligar e desligar
 
-Criamos uma interface para o comand com um método para o executar
+Criamos uma interface para o command com um método para o executar
 
 Criamos uma classe para o comando de ligar/desligar a luz de um cômodo. Perceba como esta classe contem tanto a propriedade luz como os métodos que interagem com ela.
 

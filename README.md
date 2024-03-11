@@ -39,3 +39,8 @@ Padrões comportamentais:
 - [Strategy](https://github.com/lucasNBS/Design-patterns/tree/main/Behavioral/Strategy)
 - [Template Method](https://github.com/lucasNBS/Design-patterns/tree/main/Behavioral/TemplateMethod)
 - [Visitor](https://github.com/lucasNBS/Design-patterns/tree/main/Behavioral/Visitor)
+
+## Referências
+- [Geekific](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc)
+- [Refactoring Guru](https://refactoring.guru/design-patterns)
+- Padrões de Projeto: Soluções reutilizáveis de software orientado a objetos

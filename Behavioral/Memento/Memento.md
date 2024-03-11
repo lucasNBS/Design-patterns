@@ -6,7 +6,7 @@ Capturar e externar o estado interno de um objeto - respeitando o encapsulamento
 
 Considere um editor de texto.
 
-O usuário pode digitar e editar o o campo de texto da forma que preferir. Adicionalmente, ele também pode desfazer sua última ação, fazendo com que o texto retorne ao que estava antes da última palavra digitada. Para criar esta funcionalidade, no entanto, uma outra classe pode ter de invadir o estado do editor para armazená-lo e modificá-lo, quebrando o encapsulamento.
+O usuário pode digitar e editar o campo de texto da forma que preferir. Adicionalmente, ele também pode desfazer sua última ação, fazendo com que o texto retorne ao que estava antes da última palavra digitada. Para criar esta funcionalidade, no entanto, uma outra classe pode ter de invadir o estado do editor para armazená-lo e modificá-lo, quebrando o encapsulamento.
 
 O padrão Memento resolve esse tipo de problema.
 

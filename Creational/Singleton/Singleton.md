@@ -16,4 +16,4 @@ Ao invés de criar uma instância do banco sempre que for utilizá-lo, criamos e
 
 O banco de dados se torna uma classe com suas propriedades padrão e uma outra que guarda sua instância. Essa classe possui um método para pegar essa instância, criando-a caso não exista e retornando-a caso exista. Note que o construtor da classe é privado, ou seja, não é possível instanciar o banco de dados diretamente, apenas com o método para buscar sua instância.
 
-Assim, pode instanciar o banco de dados na primeira vez que o consultamos e buscar este mesmo objeto sempre que o utilizamos.
+Assim, podemos instanciar o banco de dados na primeira vez que o consultamos e buscar este mesmo objeto sempre que o utilizamos.

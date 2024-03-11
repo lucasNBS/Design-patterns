@@ -20,6 +20,6 @@ Criamos a classe do visitor com a implementação dos métodos de envio de e-mai
 
 Criamos a classe abstrata do cliente. Note como um dos métodos padrão que recebe um visitor.
 
-Criamos a classe de cada tipo de cliente, implementando seus métodos. Perceba como o método que recebe o visitor executa o método para envair o e-mail correto.
+Criamos a classe de cada tipo de cliente, implementando seus métodos. Perceba como o método que recebe o visitor executa o método para enviar o e-mail correto.
 
 Por fim, podemos instanciar os clientes, passá-los a uma instância do visitor e executar o método de envio de e-mail. Dessa forma, cada cliente receberá o e-mail correto.

@@ -18,7 +18,7 @@ Criamos uma classe para livro com suas propriedades. Perceba que propriedades cu
 
 Criamos uma classe do tipo do livro, que armazena as propriedades que mais se repetem em livros.
 
-Criamos uma classe da fábrica de livros, que possui um método para buscar um tipo de livro específico, criando-o caso não exista e trazendo o já existente caso haja o encontre.
+Criamos uma classe da fábrica de livros, que possui um método para buscar um tipo de livro específico, criando-o caso não exista e trazendo o já existente caso haja.
 
 Criamos a classe da loja, que possui um método para cadastrar livros. Note como este método primeiramente consulta os tipos de livros já existentes na fábrica de livros e depois cria o livro.
 

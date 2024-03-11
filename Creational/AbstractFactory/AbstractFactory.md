@@ -20,4 +20,4 @@ Cada tipo de monitor e placa de vídeo se torna uma classe própria que implemen
 
 A empresa se torna uma classe abstrata com os métodos abstratos para criar um monitor e uma placa de vídeo.
 
-Por fom, para cada tipo de monitor ou placa de vídeo, há um tipo de fabricadora que o produz com a sua própria implementação do método para criar monitor ou placa de vídeo.
+Por fim, para cada tipo de monitor ou placa de vídeo, há um tipo de fabricadora que o produz com a sua própria implementação do método para criar monitor ou placa de vídeo.
